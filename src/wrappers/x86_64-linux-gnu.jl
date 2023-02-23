@@ -4,11 +4,12 @@ export libhdf5, libhdf5_hl
 using Zlib_jll
 using OpenSSL_jll
 using LibCURL_jll
+using libaec_jll
 JLLWrappers.@generate_wrapper_header("HDF5")
-JLLWrappers.@declare_library_product(libhdf5, "libhdf5.so.200")
-JLLWrappers.@declare_library_product(libhdf5_hl, "libhdf5_hl.so.200")
+JLLWrappers.@declare_library_product(libhdf5, "libhdf5.so.310")
+JLLWrappers.@declare_library_product(libhdf5_hl, "libhdf5_hl.so.310")
 function __init__()
-    JLLWrappers.@generate_init_header(Zlib_jll, OpenSSL_jll, LibCURL_jll)
+    JLLWrappers.@generate_init_header(Zlib_jll, OpenSSL_jll, LibCURL_jll, libaec_jll)
     JLLWrappers.@init_library_product(
         libhdf5,
         "lib/libhdf5.so",
