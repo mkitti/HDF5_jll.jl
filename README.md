@@ -17,6 +17,7 @@ The tarballs for `HDF5_jll.jl` have been built from these sources:
 
 `HDF5_jll.jl` is available for the following platforms:
 
+* `Windows i686` (`i686-w64-mingw32`)
 * `Windows x86_64` (`x86_64-w64-mingw32`)
 
 ## Dependencies
