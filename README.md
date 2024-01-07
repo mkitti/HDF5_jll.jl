@@ -17,8 +17,18 @@ The tarballs for `HDF5_jll.jl` have been built from these sources:
 
 `HDF5_jll.jl` is available for the following platforms:
 
-* `Windows i686` (`i686-w64-mingw32`)
-* `Windows x86_64` (`x86_64-w64-mingw32`)
+* `Windows i686 {cxxstring_abi=cxx03, libgfortran_version=3.0.0, mpi=microsoftmpi}` (`i686-w64-mingw32-libgfortran3-cxx03-mpi+microsoftmpi`)
+* `Windows i686 {cxxstring_abi=cxx11, libgfortran_version=3.0.0, mpi=microsoftmpi}` (`i686-w64-mingw32-libgfortran3-cxx11-mpi+microsoftmpi`)
+* `Windows i686 {cxxstring_abi=cxx03, libgfortran_version=4.0.0, mpi=microsoftmpi}` (`i686-w64-mingw32-libgfortran4-cxx03-mpi+microsoftmpi`)
+* `Windows i686 {cxxstring_abi=cxx11, libgfortran_version=4.0.0, mpi=microsoftmpi}` (`i686-w64-mingw32-libgfortran4-cxx11-mpi+microsoftmpi`)
+* `Windows i686 {cxxstring_abi=cxx03, libgfortran_version=5.0.0, mpi=microsoftmpi}` (`i686-w64-mingw32-libgfortran5-cxx03-mpi+microsoftmpi`)
+* `Windows i686 {cxxstring_abi=cxx11, libgfortran_version=5.0.0, mpi=microsoftmpi}` (`i686-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi`)
+* `Windows x86_64 {cxxstring_abi=cxx03, libgfortran_version=3.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran3-cxx03-mpi+microsoftmpi`)
+* `Windows x86_64 {cxxstring_abi=cxx11, libgfortran_version=3.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran3-cxx11-mpi+microsoftmpi`)
+* `Windows x86_64 {cxxstring_abi=cxx03, libgfortran_version=4.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran4-cxx03-mpi+microsoftmpi`)
+* `Windows x86_64 {cxxstring_abi=cxx11, libgfortran_version=4.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran4-cxx11-mpi+microsoftmpi`)
+* `Windows x86_64 {cxxstring_abi=cxx03, libgfortran_version=5.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran5-cxx03-mpi+microsoftmpi`)
+* `Windows x86_64 {cxxstring_abi=cxx11, libgfortran_version=5.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi`)
 
 ## Dependencies
 

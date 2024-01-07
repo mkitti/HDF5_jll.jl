@@ -1,28 +1,144 @@
 [[HDF5]]
-arch = "x86_64"
-git-tree-sha1 = "d3078a705641b0402a9a286f1d410bb2372d25f8"
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fb5668de2a9cf93a4da08468d21a82bc2c68880f"
 lazy = true
-libc = "glibc"
-os = "linux"
+libgfortran_version = "3.0.0"
+mpi = "microsoftmpi"
+os = "windows"
 
     [[HDF5.download]]
-    sha256 = "b3f92a48124823e49dfdbf6f6d67c660b412bc41bb05233cf40889014c0c1e14"
-    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-linux-gnu.tar.gz"
+    sha256 = "7085f0e11e03fe74bfc31f738714b5848221aca46d9b1961ae44226f544d3c0f"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32-libgfortran3-cxx03-mpi+microsoftmpi.tar.gz"
 [[HDF5]]
 arch = "i686"
-git-tree-sha1 = "774fb27ae3f021841cc5b2a772f41b2a6897e155"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bafdf1691e507188c4c4532198289c3216125e9e"
 lazy = true
+libgfortran_version = "3.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[HDF5.download]]
-    sha256 = "86827bd6c07f9604c7f6a48792013381d3385a32e4e1b099d4ec82338b7bef7c"
-    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32.tar.gz"
+    sha256 = "39dd0e6595273a4d9996f81920ad4268287e07742afc8d3b4417b21cdf1d6b25"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32-libgfortran3-cxx11-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "84589349338418aeaf73c33cdad5e907287e1f71"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "5d55c5587bb1a56c8f961f7c708a386d901d12e5e76b21c37454c6aa8a52aefb"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32-libgfortran4-cxx03-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5c0b6552527e7743671071bc3d067bfacfdfa6f0"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "63c9db1316428b53634495c0568cb705a522ebad4653225ae9bca9ba56b55a38"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32-libgfortran4-cxx11-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ec94e8f44112a6fe0d4d14be37a861d096db8b33"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "88d21b168977b8b4ac8e2a8faa474804f1a466b2ca9c8c884a85da5af2f7d353"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32-libgfortran5-cxx03-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cff4ca0a77024faf91333df06e9cfb51745648de"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "561fb35f6b42394e14a2b9f886864068713aa4369e4c044baba4df637d830d1d"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi.tar.gz"
 [[HDF5]]
 arch = "x86_64"
-git-tree-sha1 = "5b9d7ab930223249c77d215cc8f8601e767d2c63"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2ae8ce0bae7601f31fab0c161ce45e5c44342eec"
 lazy = true
+libgfortran_version = "3.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[HDF5.download]]
-    sha256 = "94110a617313501f509b95d28702be75ae67996bacebf9c83c42220055cc969c"
-    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32.tar.gz"
+    sha256 = "f20cea4e39c27cf7a19f9f85478b55ed3b6411c9527385fc346ba4747acdec4f"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32-libgfortran3-cxx03-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4e91b26573f4477bbabef96c7a1f6858fcff16fb"
+lazy = true
+libgfortran_version = "3.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "c9ed26e5f37661a50a1b0cda78ff7dcefa7dc8cc3c0046b2340be472f0550e24"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32-libgfortran3-cxx11-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "edb7ca4b1e427302780ddb46c2e7247b4da9e4df"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "170f4f1d25a3951f97120ebe1c6c60ea8605a8357ad2b1f52816e7c17bd999a4"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32-libgfortran4-cxx03-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "289a397de16d1141c6f132a80d028c629fe05af3"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "cc04db83525c37f7c2e15ae7627e9fcc07062d154da4dac1a3f62984d043a46e"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32-libgfortran4-cxx11-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "64b72b604d26b5361e143bc098b576dc16667a7c"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "5ba7ed14791b2bd98bf8a8443133776b5785165bb76064a59f08f34d0c948754"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32-libgfortran5-cxx03-mpi+microsoftmpi.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "13c6e3ec176c1b5cda4515182686a3e0eefc9df2"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "b821339b9232b4aaf9d046ae4e55cf4b17978df51f1c507c58af3ed019706311"
+    url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi.tar.gz"
