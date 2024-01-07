@@ -19,10 +19,10 @@ os = "windows"
     url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.i686-w64-mingw32.tar.gz"
 [[HDF5]]
 arch = "x86_64"
-git-tree-sha1 = "057e9d08c72b98aa4b998fc341bd879ca4379403"
+git-tree-sha1 = "49c948487255714a0dad3a2a833ddb5e5335ef03"
 lazy = true
 os = "windows"
 
     [[HDF5.download]]
-    sha256 = "6621aed9f040170ece1c5c7a7b6aebfc6604e8b4699c7ba2dbb6d500f16b6222"
+    sha256 = "219e19979b0dce6c16317e3a808a648da9abf9e444dfcfc3fdbe24b70f64cf7c"
     url = "https://github.com/mkitti/HDF5_jll.jl/releases/download/HDF5-v1.14.3+0/HDF5.v1.14.3.x86_64-w64-mingw32.tar.gz"
